@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:stretchColumns="1">
+
+    <!--tabla de open  3 columnas 2 vistas -->
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="Open..."
+            android:textColor="@color/white"
+            android:padding="5dip" />
+        <TextView
+            android:text="Ctrl-O"
+            android:textColor="#f1f3f4"
+            android:layout_gravity="right"
+            android:padding="5dip"/>
+
+    </TableRow>
+    <!--tabla save.. 3 columnas 3 vistas  -->
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="Save..."
+            android:textColor="@color/white"
+            android:padding="5dip" />
+        <TextView
+            android:text="Ctrl-S"
+            android:textColor="#f1f3f4"
+            android:gravity="right"
+            android:padding="5dip" />
+    </TableRow>
+    <!--tabla de save as ... 3 columnas 3vistas -->
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="Save As..."
+            android:textColor="@color/white"
+            android:padding="3dip" />
+        <TextView
+            android:text="Ctrl-Shift-S"
+            android:textColor="#f1f3f4"
+            android:gravity="right"
+            android:padding="5dip" />
+    </TableRow>
+    <!-- vista de separación -->
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+
+    <TableRow>
+        <TextView
+            android:text="X"
+            android:textColor="@color/white"
+            android:padding="5dip" />
+        <TextView
+            android:text="Import..."
+            android:textColor="@color/white"
+            android:padding="5dip" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="X"
+            android:textColor="@color/white"
+            android:padding="3dip" />
+        <TextView
+            android:text="Export..."
+            android:textColor="@color/white"
+            android:padding="5dip" />
+        <TextView
+            android:text="Ctrl-E"
+            android:textColor="#f1f3f4"
+            android:gravity="right"
+            android:padding="5dip" />
+    </TableRow>
+
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="Quit"
+            android:textColor="@color/white"
+            android:padding="5dip" />
+    </TableRow>
+</TableLayout>
